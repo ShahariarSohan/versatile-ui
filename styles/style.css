@@ -32,7 +32,6 @@
 }
 /* banner styles */
 .banner {
-  width: 100%;
   background-color: rgb(32, 32, 32);
 }
 /* nav styles */
@@ -65,7 +64,6 @@
 /* banner container styles */
 .banner-container {
   max-width: 1200px;
-  height: auto;
   margin: 0 auto;
   display: flex;
   justify-content: space-between;
@@ -77,6 +75,9 @@
   flex-direction: column;
   justify-content: flex-start;
   gap: 20px;
+}
+.banner-content-2 {
+  position: relative;
 }
 .banner-title {
   font-size: 4rem;
@@ -103,11 +104,12 @@
   align-items: center;
   gap: 10px;
   box-sizing: border-box;
-  border: 1px solid rgb(230, 83, 60);
+  border: 1px solid rgba(255, 255, 255, 0.1);
   border-radius: 5px;
-  position: relative;
-  top: -200px;
+  position: absolute;
+  bottom: 100px;
   left: -100px;
+  background: rgba(255, 255, 255, 0.1);
 }
 .circle {
   border-radius: 50%;
@@ -123,9 +125,10 @@
   flex-direction: column;
   justify-content: center;
   box-sizing: border-box;
-  border: 1px solid rgb(230, 83, 60);
+  border: 1px solid rgba(255, 255, 255, 0.1);
   border-radius: 5px;
-  position: relative;
+  position: absolute;
   left: 220px;
-  top: 220px;
+  top: 120px;
+  background: rgba(255, 255, 255, 0.1);
 }
