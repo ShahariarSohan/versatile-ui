@@ -1,0 +1,63 @@
+@import url("https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap");
+
+.inter {
+  font-family: "Inter", serif;
+}
+* {
+  margin: 0;
+  padding: 0;
+}
+/* shared style */
+.primary-color1 {
+  color: rgb(255, 255, 255);
+}
+.primary-color2 {
+  color: rgb(255, 255, 255, 0.7);
+}
+.primary-color3 {
+  color: rgb(230, 83, 60);
+}
+.btn-primary {
+  background-color: rgb(230, 83, 60);
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  gap: 10;
+  padding: 8px 20px 8px 20px;
+  border-radius: 40px;
+  color: rgb(255, 255, 255);
+}
+/* banner styles */
+.banner {
+  width: 100%;
+  height: 100vh;
+  background-color: rgb(19, 18, 18);
+}
+/* nav styles */
+.nav {
+  max-width: 1200px;
+  margin: 0 auto;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.nav-menu {
+  width: 40%;
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+  padding: 20px;
+}
+.nav-title {
+  font-size: 2rem;
+  text-align: left;
+  font-weight: 800;
+}
+.nav li {
+  list-style: none;
+}
+.nav a {
+  text-decoration: none;
+  color: rgb(255, 255, 255, 0.7);
+}
