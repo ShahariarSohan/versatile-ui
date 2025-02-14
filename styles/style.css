@@ -275,6 +275,26 @@ main {
   .habit-subtitle {
     padding: 10px;
   }
+  .run-and-extra-container {
+    margin-top: 50px;
+    padding: 20px 0;
+    width: 90%;
+    flex-direction: column;
+    gap: 20px;
+  }
+  .run-and-extra-content {
+    width: 90%;
+    gap: 20px;
+  }
+  .run-subtitle {
+    width: 100%;
+  }
+  .join-now-btn {
+    width: 100%;
+  }
+  .run-image-div {
+    width: 90%;
+  }
 }
 /* medium devices */
 @media screen and (min-width: 576px) and (max-width: 992px) {
@@ -335,11 +355,33 @@ main {
     width: 50%;
     margin: 0 auto;
   }
+  .run-and-extra-container {
+    margin-top: 50px;
+    padding: 20px 0;
+    width: 90%;
+    gap: 20px;
+  }
+  .run-and-extra-content {
+    width: 40%;
+    gap: 20px;
+  }
+  .run-subtitle {
+    width: 100%;
+  }
+  .join-now-btn {
+    width: 100%;
+  }
+  .run-image-div {
+    width: 40%;
+  }
 }
 /* large devices */
 @media screen and (min-width: 993px) and (max-width: 1260px) {
   .five-hundred-plus {
     left: 150px;
     top: 50px;
+  }
+  .run-and-extra-container {
+    width: 90%;
   }
 }
