@@ -30,6 +30,7 @@
   color: rgb(255, 255, 255);
   font-weight: 700;
 }
+/* header section */
 /* banner styles */
 .banner {
   background-color: rgb(32, 32, 32);
@@ -134,8 +135,51 @@
   font-size: 2rem;
   color: rgb(230, 83, 60);
 }
-
+/* main section */
+main {
+  background-color: rgb(0, 0, 0);
+}
+/* change your habit section styles */
+.habit-title {
+  padding-top: 50px;
+  text-align: center;
+  font-size: 2.5rem;
+  font-weight: 900;
+}
+.habit-subtitle {
+  padding-bottom: 50px;
+  text-align: center;
+  font-size: 0.9rem;
+  color: rgba(255, 255, 255, 0.5);
+}
+.habit-container {
+  max-width: 1200px;
+  margin: auto;
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  gap: 20px;
+  padding: 50px 0;
+}
+.habit-image {
+  border-radius: 50%;
+}
+.habit-card {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+  gap: 10px;
+}
+.habit-card-title {
+  font-size: 1.2rem;
+  font-weight: 600;
+}
+.habit-card-subtitle {
+  font-size: 0.8rem;
+  color: rgba(255, 255, 255, 0.5);
+}
 /* responsive styles*/
+/* small devices */
 @media screen and (max-width: 576px) {
   .nav {
     width: 90%;
@@ -182,6 +226,7 @@
     font-size: 0.6rem;
   }
 }
+/* medium devices */
 @media screen and (min-width: 576px) and (max-width: 992px) {
   .nav {
     width: 90%;
@@ -228,6 +273,7 @@
     font-size: 0.6rem;
   }
 }
+/* large devices */
 @media screen and (min-width: 993px) and (max-width: 1260px) {
   .five-hundred-plus {
     left: 150px;
