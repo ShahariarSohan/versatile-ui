@@ -178,6 +178,14 @@ main {
   font-size: 0.8rem;
   color: rgba(255, 255, 255, 0.5);
 }
+
+/* run and extra section  styles*/
+.run-and-extra-container {
+  max-width: 1200px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
 /* responsive styles*/
 /* small devices */
 @media screen and (max-width: 576px) {
