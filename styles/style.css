@@ -230,6 +230,47 @@ main {
   font-size: 0.9rem;
   color: rgba(255, 255, 255, 0.5);
 }
+.bmi-calculator-container {
+  background-color: rgba(34, 34, 34);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.bmi-table-title {
+  font-size: 1.5rem;
+  font-weight: 900;
+}
+
+td {
+  color: rgba(255, 255, 255, 0.5);
+  font-size: 0.9rem;
+  border: 1px solid rgba(255, 255, 255, 0.1);
+  padding: 10px 20px;
+}
+.bold-row {
+  font-weight: 800px;
+}
+.bmi-table {
+  border-collapse: collapse;
+}
+.bmi-form-title {
+  font-size: 1.5rem;
+  font-weight: 900;
+}
+.bmi-form-subtitle {
+  font-size: 0.9rem;
+  color: rgba(255, 255, 255, 0.5);
+}
+.bmi-content-1 {
+  width: 40%;
+}
+.bmi-content-2 {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  gap: 10px;
+  width: 40%;
+}
 /* meet our team section styles */
 .team-title {
   padding-top: 50px;
