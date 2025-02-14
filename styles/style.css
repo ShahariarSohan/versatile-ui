@@ -217,6 +217,19 @@ main {
   width: 100%;
   border-radius: 18px;
 }
+/* BMI calculator section styles */
+.bmi-title {
+  padding-top: 50px;
+  text-align: center;
+  font-size: 2.5rem;
+  font-weight: 900;
+}
+.bmi-subtitle {
+  padding-bottom: 50px;
+  text-align: center;
+  font-size: 0.9rem;
+  color: rgba(255, 255, 255, 0.5);
+}
 /* meet our team section styles */
 .team-title {
   padding-top: 50px;
