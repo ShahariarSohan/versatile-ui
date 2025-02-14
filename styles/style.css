@@ -217,6 +217,51 @@ main {
   width: 100%;
   border-radius: 18px;
 }
+/* meet our team section styles */
+.team-title {
+  padding-top: 50px;
+  text-align: center;
+  font-size: 2.5rem;
+  font-weight: 900;
+}
+.team-subtitle {
+  padding-bottom: 50px;
+  text-align: center;
+  font-size: 0.9rem;
+  color: rgba(255, 255, 255, 0.5);
+}
+.trainer-container {
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 20px;
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 10px;
+  border-radius: 18px;
+  background: rgb(34, 34, 34);
+}
+.trainer-image-div {
+  position: relative;
+  width: 100%;
+}
+.trainer-image {
+  width: 100%;
+  height: 300px;
+  border-radius: 18px;
+}
+.trainer-content {
+  padding: 20px;
+  position: absolute;
+  bottom: 10px;
+}
+.trainer-name {
+  font-weight: 700;
+  margin-bottom: 5px;
+}
+.trainer-subtitle {
+  font-size: 0.8rem;
+  color: rgba(255, 255, 255, 0.5);
+}
 /* responsive styles*/
 /* small devices */
 @media screen and (max-width: 576px) {
@@ -293,6 +338,18 @@ main {
     width: 100%;
   }
   .run-image-div {
+    width: 90%;
+  }
+  .team-title {
+    padding-top: 10px;
+    font-size: 2rem;
+  }
+  .team-subtitle {
+    padding: 10px;
+  }
+  .trainer-container {
+    grid-template-columns: 1fr;
+    padding: 10px;
     width: 90%;
   }
 }
@@ -374,6 +431,11 @@ main {
   .run-image-div {
     width: 40%;
   }
+
+  .trainer-container {
+    padding: 10px;
+    width: 90%;
+  }
 }
 /* large devices */
 @media screen and (min-width: 993px) and (max-width: 1260px) {
@@ -382,6 +444,10 @@ main {
     top: 50px;
   }
   .run-and-extra-container {
+    width: 90%;
+  }
+  .trainer-container {
+    padding: 10px;
     width: 90%;
   }
 }
