@@ -182,9 +182,40 @@ main {
 /* run and extra section  styles*/
 .run-and-extra-container {
   max-width: 1200px;
+  margin: 100px auto 0 auto;
+  padding: 30px 0;
   display: flex;
-  justify-content: space-between;
+  justify-content: space-around;
   align-items: center;
+  gap: 50px;
+  border-radius: 18px;
+  background: rgb(34, 34, 34);
+}
+.run-and-extra-content {
+  width: 50%;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  gap: 20px;
+}
+.run-title {
+  font-size: 2.5rem;
+  font-weight: 900;
+}
+.run-subtitle {
+  font-size: 0.8rem;
+  color: rgba(255, 255, 255, 0.5);
+  width: 70%;
+}
+.join-now-btn {
+  width: 30%;
+}
+.run-image-div {
+  width: 30%;
+}
+.run-image {
+  width: 100%;
+  border-radius: 18px;
 }
 /* responsive styles*/
 /* small devices */
