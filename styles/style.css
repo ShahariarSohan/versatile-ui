@@ -262,6 +262,61 @@ main {
   font-size: 0.8rem;
   color: rgba(255, 255, 255, 0.5);
 }
+/* footer styles */
+footer {
+  height: 400px;
+  background-color: rgba(34, 34, 34);
+}
+.footer-container {
+  max-width: 1200px;
+  margin: auto;
+  padding: 50px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.footer-content-1 {
+  width: 30%;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  gap: 20px;
+}
+.fitness-title {
+  font-size: 3rem;
+  font-weight: 800;
+  color: rgb(230, 83, 60);
+}
+.fitness-subtitle {
+  font-size: 0.9rem;
+  color: rgba(255, 255, 255, 0.5);
+}
+.footer-content-2 {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 100px;
+}
+.footer-content-2-title {
+  font-size: 1.5rem;
+  font-weight: 700;
+}
+.get-started-list li {
+  list-style: none;
+  color: rgba(255, 255, 255, 0.5);
+  padding-top: 10px;
+}
+.horizontal-line {
+  max-width: 1200px;
+  margin: 20px auto;
+  height: 1px;
+  background-color: rgba(255, 255, 255, 0.5);
+}
+.copyright-title {
+  text-align: center;
+  font-size: 0.9rem;
+  color: rgba(255, 255, 255, 0.5);
+}
 /* responsive styles*/
 /* small devices */
 @media screen and (max-width: 576px) {
