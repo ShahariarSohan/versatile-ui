@@ -235,6 +235,7 @@ main {
   display: flex;
   justify-content: center;
   align-items: center;
+  gap: 20px;
   padding: 50px 0;
 }
 .bmi-table-title {
@@ -295,10 +296,6 @@ form select {
   border-radius: 5px;
   border: 1px solid;
   background: rgba(255, 255, 255, 0.1);
-}
-form option {
-  color: rgba(255, 255, 255, 0.3);
-  background-color: rgba(255, 255, 255, 0.1);
 }
 .select-activity {
   grid-column: span 2;
@@ -485,6 +482,24 @@ footer {
   .run-image-div {
     width: 90%;
   }
+  .bmi-calculator-container {
+    flex-direction: column;
+  }
+  .bmi-content-1 {
+    width: 90%;
+  }
+  .bmi-content-2 {
+    width: 90%;
+  }
+  form input {
+    width: 60%;
+  }
+  form select {
+    width: 100%;
+  }
+  .calculate-btn {
+    width: 100%;
+  }
   .team-title {
     padding-top: 10px;
     font-size: 2rem;
@@ -594,7 +609,24 @@ footer {
   .run-image-div {
     width: 40%;
   }
-
+  .bmi-calculator-container {
+    flex-direction: column;
+  }
+  .bmi-content-1 {
+    width: 90%;
+  }
+  .bmi-content-2 {
+    width: 90%;
+  }
+  form input {
+    width: 77%;
+  }
+  form select {
+    width: 100%;
+  }
+  .calculate-btn {
+    width: 100%;
+  }
   .trainer-container {
     padding: 10px;
     width: 90%;
